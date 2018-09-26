@@ -6,4 +6,4 @@ main = do
     print (length l1)
     print $ take (length l1 `div` 2) l1
     print $ drop (length l1 `div` 2) l1
-    print $ (splitAt ((length l1) `div` 2) l1)
+    print $ splitAt (length l1 `div` 2) l1
