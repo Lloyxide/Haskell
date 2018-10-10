@@ -1,1 +1,1 @@
-    print $ head args
++ showTree d
